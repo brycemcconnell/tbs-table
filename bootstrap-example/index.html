@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TBS-Table v0.1.0</title>
+	<link rel="stylesheet" type="text/css" href="../reset.css" media="screen" />
+	<link href="./bootstrap.min.css" rel="stylesheet">
+	<script src="../tbs-table.js"></script>
+	<style>
+	.loader {
+		border: 6px solid #f3f3f3; /* Light grey */
+		border-top: 6px solid #3498db; /* Blue */
+		border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		animation: spin 1s linear infinite;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+	}
+	@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+	</style>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="loader" class="loader"></div>
+		<h1 class="container-fluid">TBS-Table v0.1.0</h1>
+		<div id="store" class="container-fluid"></div>
+	</div>
+	
+	<script>
+		const beers = new TbsTable("../example-data.json", store, {
+			onload: () => { loader.style.display = "none" },
+			enableTabs: "",
+			hideColumns: []
+		})
+	</script>
+</body>
+
+</html>

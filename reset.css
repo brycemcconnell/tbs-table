@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/**************************************
+
+
+							CSS Reset
+				HTML5タグのrresset込み
+
+
+***************************************/
+
+html, body, div, header, footer, nav, article, section, aside, hgroup, h1, h2, h3, h4, h5, h6, p, blockquote, pre, address, code, span, mark, a, em, strong, abbr, cite, del, dfn, ins, kbd, q, samp, small, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, details, summary, menu, output, ruby, time, img, figure, figcaption, audio, video, canvas, embed, object, iframe {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-weight: normal;
+}
+html, body {
+	height: 100%;
+	line-height: 1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	content: none;
+}
+input, textarea {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+}
+a:focus {
+	outline: none;
+}
+input, textarea {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-sizing: border-box;
+}
+a:link {
+	color: #0b57a7;
+	text-decoration: none;
+}
+a:visited {
+	color: #0b57a7;
+}
+a:hover {
+	color: #0b57a7;
+	text-decoration: underline;
+}
+a:active {
+	color: #0b57a7;
+	text-decoration: underline;
+}
+
+/**************************************

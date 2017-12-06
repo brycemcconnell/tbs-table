@@ -1,0 +1,12 @@
+{
+  "name": "tbs-table-dist",
+  "version": "0.1.0",
+  "description": "A table plugin for the web",
+  "main": "tbs-table.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "author": "Bryce A McConnell",
+  "license": "MIT"
+}
